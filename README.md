@@ -10,6 +10,12 @@ Some general thoughts and considerations before sending a PCB off to the fab hou
 - Did you use protection diodes?
 - Did you connect the programming port of the MCU to a programming header?
 - Is everything labeled clearly on the silkscreen?
+  - Polarities
+    - LEDs
+    - Diodes
+    - Capacitors
+    - ICs (add the notch)
+    - Headers
   - Product Name
   - Company Name
   - Logos
@@ -17,6 +23,10 @@ Some general thoughts and considerations before sending a PCB off to the fab hou
   - Board version
   - Something fun, just for you
 - Make sure all layers are visible before copying the board (for example making a panel)
+- Do you have any high speed signals (usb 2 and up speed)? If so, make sure they don’t cross a break in the ground plane.
+- Do you have any plated slots?
+  - Did you draw them the way your PCB shop wants?
+  - Did you make sure that their method doesn’t break your clearance checking?
 - Footprints:
   - Did you print out the PCB on paper to check it against your actual parts?
   - No seriously; check those footprints against the datasheets one more time. Measure carefully!
@@ -64,7 +74,7 @@ Some general thoughts and considerations before sending a PCB off to the fab hou
   - e.g. Planes that got sliced by a trace and have a connection only on one end
 
 
-Special thanks to https://github.com/AlpenglowIndustries, https://github.com/jasoncoon, https://github.com/sethkaz, https://github.com/freemovers for their invaluable help in this guide.
+Special thanks to https://github.com/AlpenglowIndustries, https://github.com/jasoncoon, https://github.com/sethkaz, https://github.com/freemovers, https://github.com/SeanMollet, for their invaluable help in this guide.
 
 Have some tips to share? Let me know!
 
