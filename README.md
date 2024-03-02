@@ -31,6 +31,7 @@ Some general thoughts and considerations before sending a PCB off to the fab hou
   - Did you print out the PCB on paper to check it against your actual parts?
   - No seriously; check those footprints against the datasheets one more time. Measure carefully!
   - Are those LEDs indicated correctly on the silkscreen? Check the datasheet again. Manufacturers aren’t consistent on marking even in the same product line sometimes
+  - Is that header or part directional? Is it pointing the right way? Are you sure?
 - Do you have test points? (Power rails, logic pins, I2C/SPI/UART lines, etc)
 - Do you need a `Reset` or `Boot` pin broken out? Put the power or ground they need to be tied to next to them with a "do not populate" resistor footprint; trigger manually
 - Did you remember to put a power or other indicator LEDs to help with debugging?
