@@ -37,6 +37,7 @@ Some general thoughts and considerations before sending a PCB off to the fab hou
 - Did you remember to put a power or other indicator LEDs to help with debugging?
 - Are your parts still available?
 - Have you slept on it?
+- PRINT IT OUT ON PAPER - line up your parts to see if they match the footprints. Is the PCB the right size?
 
 ## If you’re working on a prototype:
 - Use more PCB space; it’s not too expensive to do a 4x4 inch board (check your board fab house)
